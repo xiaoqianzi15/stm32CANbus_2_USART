@@ -10,9 +10,8 @@ I'm using NUCLEO F103RB.
    http://www.openstm32.org/HomePage
 
 2. Use CubeMx to create project
-   ![image](https://github.com/xiaoqianzi15/Cache/blob/master/open%20stm32cubemx.png)
-
    new project
+   
    ![image](https://github.com/xiaoqianzi15/Cache/blob/master/open%20stm32cubemx.png)
    
    For me chose NUCLEO-F103RB
