@@ -64,16 +64,20 @@ I'm using NUCLEO F103RB.
    
    open the project and find main.c
    in while(1), add HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
-   This means to turn on the blue led 
+   This means to turn on the blue led       
+   
    ![image](https://github.com/xiaoqianzi15/Cache/blob/master/open%20main%2Cc.png)
    
-   click "run"
+   click "run"        
+   
    ![image](https://github.com/xiaoqianzi15/Cache/blob/master/run.png)
    
-   chose Ac6 STM32 C/C++ application
+   chose Ac6 STM32 C/C++ application        
+   
    ![image](https://github.com/xiaoqianzi15/Cache/blob/master/chose%20Ac6.png)
    
-   than the blue led turn on.
+   than the blue led turn on.       
+   
    ![image](https://github.com/xiaoqianzi15/Cache/blob/master/than%20led%20on.png)
    
    
