@@ -1,3 +1,5 @@
+//for FreeRTOS
+
 int __io_putchar(int ch)
 {
  uint8_t c[1];
@@ -17,7 +19,8 @@ return len;
 }
 
 {
-    nLoop++;
-    HAL_Delay(500);
-    printf("nLoop == %d \n\r", nLoop);
+     nLoop++;
+     HAL_Delay(500);
+     osDelay(1000);
+     printf("nLoop == %d \n\r", nLoop);
 }
