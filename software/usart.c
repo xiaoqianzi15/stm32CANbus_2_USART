@@ -24,3 +24,26 @@ return len;
      osDelay(1000);
      printf("nLoop == %d \n\r", nLoop);
 }
+
+
+
+  osThreadDef(ID_1, CANPUSH1, osPriorityNormal, 0, 128);
+  ID1 = osThreadCreate(osThread(ID_1), NULL);
+
+
+
+
+void CANPUSH1(void const * argument)
+{
+
+  /* USER CODE BEGIN 5 */
+	int nLoop = 0 ;
+  /* Infinite loop */
+  for(;;)
+  {
+	  nLoop++;
+	  printf("nLoop == %d \n\r", nLoop);
+      osDelay(1000);
+  }
+  /* USER CODE END 5 */ 
+}
