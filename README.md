@@ -1,4 +1,6 @@
 # stm32CANbus_2_USART
+freertos ref：https://www.keil.com/pack/doc/CMSIS/RTOS/html/group__CMSIS__RTOS__ThreadMgmt.html#gac59b5713cb083702dce759c73fd90dff
+
 canbus to usart directly
 
 I'm using NUCLEO F103RB.
