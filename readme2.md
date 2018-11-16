@@ -1,5 +1,6 @@
 LCD Board
-ADC PA0 ADC1 IN0
+ADC PA0 ADC1 IN0 .       
+
 Control  heater PB2
 
 
